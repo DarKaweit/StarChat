@@ -1,0 +1,64 @@
+@font-face
+{
+   font-family: 'starkillerregular';
+    src: url('../font/starkiller/starkiller-webfont.eot');
+    src: url('../font/starkiller/starkiller-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/starkiller/starkiller-webfont.woff2') format('woff2'),
+         url('../font/starkiller/starkiller-webfont.woff') format('woff'),
+         url('../font/starkiller/starkiller-webfont.ttf') format('truetype'),
+         url('../font/starkiller/starkiller-webfont.svg#starkillerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    margin:0;
+    padding:0;
+    background: url("../content/img/bg_sw6.jpg") no-repeat center fixed;
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+  }
+
+  h1
+  {
+      text-align: center;
+      font-family: starkillerregular;
+      text-shadow: 2px 2px 5px yellow;
+  }
+
+  .formInscription
+  {
+      margin-top: 10%;
+  }
+  
+  .formInscription p
+  {
+      font-family: starkillerregular;
+  }
+  
+  .endInscriptconnexion
+  {
+      font-family: starkillerregular;
+  }
+  
+  .validateInscript
+  {
+      font-weight: bold;
+  }
+  
+
+.icon_social_position_foot
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    float:right;
+
+}
+
+.icon_social_foot
+{
+	display: inline-flex;
+}

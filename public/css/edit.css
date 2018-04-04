@@ -1,0 +1,19 @@
+@font-face
+{
+   font-family: 'starkillerregular';
+    src: url('../content/font/starkiller-webfont.eot');
+    src: url('../content/font/starkiller-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../content/font/starkiller-webfont.woff2') format('woff2'),
+         url('../content/font/starkiller-webfont.woff') format('woff'),
+         url('../content/font/starkiller-webfont.ttf') format('truetype'),
+         url('../content/font/starkiller-webfont.svg#starkillerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1
+{
+	text-align: center;
+	font-family: starkillerregular;
+	text-shadow: 2px 2px 5px yellow;
+}
